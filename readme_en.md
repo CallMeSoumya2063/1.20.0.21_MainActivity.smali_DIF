@@ -9,7 +9,7 @@ The point. - Due to Android 13 restrictions, now you (unless you have root acces
 
 First, take MCBE apk (assuming you already have it) decompile it using Apktool M https://4pda.to/forum/index.php?showtopic=1002506 Go to /smali/com/mojang/minecraftpe in the decompiled apk folder, find the MainActivity.smali file and make changes like these: https://github.com/Max-RM/1.20.0.21_MainActivity.smali_DIF/commit/97d794adef66fb586103744ae0a33e090c136b74 That is, just make changes based on the changes shown in the link. Then in Android.manifest.xml of the game make the following changes: https://ibb.co/mHyRWZ3 i.e. insert the line:
 ```
-<uses-permission
+    <uses-permission
 
 android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
 ```
