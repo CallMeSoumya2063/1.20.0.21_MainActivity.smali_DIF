@@ -1,3 +1,5 @@
+Differences between files. It is very important, because it allows you to create an MCBE apk with the old way of storing worlds.
+
 Thanks to inotflying (Egornya) for inventing this method.
 
 02.05.2023 I learned how to create MCBE apk that use the old path to store worlds - /storage/emulated/0/games/com.mojang/minecraftWorlds Instead of the new /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds
