@@ -1,3 +1,4 @@
+# 1.20.0.21_MainActivity.smali_DIF
 Differences between files. It is very important, because it allows you to create an MCBE apk with the old way of storing worlds.
 
 Thanks to inotflying (Egornya) for inventing this method.
